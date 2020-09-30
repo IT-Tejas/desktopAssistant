@@ -1,10 +1,10 @@
-from gtts import gTTS
-import speech_recognition as sr
+from gtts import gTTS    # pip install gTTS  
+import speech_recognition as sr    # pip install speech_recognition
 import os
 import re
 import webbrowser
 import smtplib
-import requests
+import requests   # pip install requests
 from weather import Weather
 
 def talkToMe(audio):
